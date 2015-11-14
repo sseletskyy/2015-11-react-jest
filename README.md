@@ -3,7 +3,7 @@ React Component testing with Jest
 
 ### Usage
 
-Install latest versions on node.js and npm
+Install latest versions of node.js and npm
 
 Run development 
 
@@ -13,18 +13,21 @@ npm start
 open http://localhost:3000
 ```
 
+Add a component CheckboxWithLabel into src/Checkbox.js
+
+Add a spec for the component into src/spec/Checkbox.spec.js
+
 Run tests once
 
 ```
 npm test
 ```
 
-Run tests --watch
+Run tests in --watch mode
 
 ```
 npm run tw
 ```
-
 
 ### Dependencies
 
