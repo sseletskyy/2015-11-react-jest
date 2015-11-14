@@ -1,0 +1,67 @@
+{
+  "name": "2015-11-react-jest",
+  "version": "1.0.0",
+  "description": "Boilerplate for ReactJS project with Jest specs",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src",
+    "test": "jest",
+    "tw": "npm test -- --watch"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testFileExtensions": [
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ],
+    "testDirectoryName": "spec",
+    "unmockedModulePathPatterns": [
+      "react",
+      "react-dom"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sseletskyy/2015-11-react-jest.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "hot",
+    "reload",
+    "jest",
+    "tdd",
+    "edit",
+    "webpack"
+  ],
+  "author": "Serge Seletskyy <sseletskyy@gmail.com> (http://github.com/sseletskyy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sseletskyy/2015-11-react-jest/issues"
+  },
+  "homepage": "https://github.com/sseletskyy/2015-11-react-jest",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-jest": "^6.0.1",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "core-js": "^1.2.6",
+    "eslint-plugin-react": "^3.6.2",
+    "jest-cli": "^0.7.1",
+    "react-addons-test-utils": "^0.14.2",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
+}
